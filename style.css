@@ -1,0 +1,92 @@
+img {
+  max-width: 15%;
+  max-height: 20%;
+  margin: auto;
+  padding-right: 30px;
+}
+
+body {
+  background-image: url(https://media.istockphoto.com/id/802751622/video/4k-abstract-particles-background-animation-loopable.jpg?s=640x640&k=20&c=GnMTmlJ1V--wG77ZMNmuB-hHaVPXkGI7k7GGcEraNO4=);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container {
+  list-style: none;
+  display: flex;
+  font-size: 35px;
+  padding: px;
+}
+
+.items {
+  padding-right: 80px;
+}
+
+.items a {
+  color: white;
+  text-decoration: none;
+  font-family: cursive;
+  font-size: large;
+  padding: 50%;
+}
+
+.items a:hover {
+  color: blue;
+}
+
+body {
+  font-family: cursive;
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+}
+
+header {
+  color: white;
+  padding: 1px;
+  text-align: center;
+  font-family: cursive;
+  font-size: large;
+}
+
+section {
+  padding: 2em;
+}
+
+.ul,
+li {
+  list-style-type: none;
+  font-family: cursive;
+  padding: 30px;
+}
+
+.section,
+Construction,
+dev {
+  font-family: cursive;
+  font-size: x-large;
+}
+
+.under {
+  max-height: 700px;
+  max-width: 700px;
+}
+
+.Bee {
+  width: 150px;
+  width: 150px;
+  margin: auto;
+  padding: 0px;
+}
+.navigation {
+  padding: 25px;
+  color: white;
+}
+
+.navigation a:hover {
+  color: blue;
+}
