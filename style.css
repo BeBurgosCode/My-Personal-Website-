@@ -14,18 +14,22 @@ body {
 }
 
 .container {
-  list-style: none;
   display: flex;
+  flex-wrap: wrap ;
+  list-style: none;
   font-size: 35px;
-  padding: px;
+  padding: 0px;
+  margin: autopx;
+  background-color: aliceblue;
 }
 
 .items {
   padding-right: 80px;
+ 
 }
 
 .items a {
-  color: white;
+  color: blue;
   text-decoration: none;
   font-family: cursive;
   font-size: large;
@@ -82,11 +86,77 @@ dev {
   margin: auto;
   padding: 0px;
 }
-.navigation {
-  padding: 25px;
-  color: white;
+
+
+.nav2{
+  background-color: aliceblue;
+  padding:auto; 
+  margin: 15px;  
+list-style: none;
+text-align: center;
+word-spacing: 50px; 
 }
 
-.navigation a:hover {
+.nav2 a:hover {
   color: blue;
 }
+
+.nav3{ background-color: aliceblue;
+  padding:auto; 
+  margin: 15px;  
+list-style: none;
+text-align: center;
+word-spacing: 50px;}
+
+.nav3 a:hover {
+  color: blue;
+}
+
+
+.contact-box{ width:500px 
+background-color: white;
+box-shadow: 20px; 
+position: absoulte; 
+display: flex 
+margin; auto  
+}
+
+.container1{ background-color: purple;}
+
+
+.bodycon{padding: autopx;
+  text-align: center;}
+
+  .navigation1{ background-color: aliceblue;
+  padding:auto; 
+  margin: 15px;  
+list-style: none;
+text-align: center;
+word-spacing: 50px;
+}
+
+  .form1{ display:flex; 
+   flex-wrap: wrap;
+    padding: 0px;
+    margin: auto;
+    width: min-content;
+    flex-grow: 0;
+    flex-shrink: 1;
+  font-size: x-large;}
+
+
+  .navigation1 a:hover {
+    color: blue;
+  }
+
+  .about {font-size: x-large;}
+
+  .a2{font-size: x-large;}
+
+  .a3{ font-size: x-large;}
+
+  .a4{font-size: x-large}
+
+  .projects{ font-size: x-large;}
+
+ .title{font-size: x-large;}
